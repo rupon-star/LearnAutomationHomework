@@ -9,7 +9,7 @@ public class AmazonOne {
         AmazonOne.bestSellers();
         AmazonOne.customerService();
         AmazonOne.newReleases();
-        AmazonOne.findaGift();
+        AmazonOne.findAGift();
         AmazonOne.todayDeals();
         AmazonOne.wholeFoods();
         AmazonOne.giftCards();
@@ -61,7 +61,7 @@ public class AmazonOne {
     }
 
     //case 4
-    public static void findaGift() {
+    public static void findAGift() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
         System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
